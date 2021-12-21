@@ -8,7 +8,7 @@ return require('packer').startup(function(use)
   }
 
   use {
-      'numToStr/Comment.nvim',
+      'numToStr/comment.nvim',
   }
 
   use {
