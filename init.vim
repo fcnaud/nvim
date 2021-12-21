@@ -9,4 +9,6 @@ colorscheme zephyr
 lua require('plugin-config/bufferline')
 lua require('plugin-config/comment')
 lua require('plugin-config/nvim-tree')
+lua require('plugin-config/lualine')
+lua require('plugin-config/telescope')
 

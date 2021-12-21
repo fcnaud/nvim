@@ -45,4 +45,9 @@ map("v", "<C-_>", "gcc", {noremap = false})
 -- nvim-tree
 map("n", "<leader>tt", ":NvimTreeToggle<cr>", opt)
 
+-- telescope
+map("n", "<C-p>", ":Telescope find_files<CR>", opt)
+map("n", "<leader>f", ":Telescope find_files<CR>", opt)
+map("n", "<leader>g", ":Telescope live_grep<CR>", opt)
+
 return pluginKeys

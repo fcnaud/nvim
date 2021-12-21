@@ -16,6 +16,20 @@ return require('packer').startup(function(use)
       requires = 'kyazdani42/nvim-web-devicons'
   }
 
+  use {
+      'nvim-lualine/lualine.nvim',
+      requires = {'kyazdani42/nvim-web-devicons', opt = true}
+  }
+
+  -- telescope
+  use 'nvim-lua/popup.nvim'
+  use 'nvim-lua/plenary.nvim'
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = {{'nvim-lua/plenary.nvim'}}
+  }
+
+
   --------------------------- colorscheme ------------------------------------
 
   -- gruvbox
