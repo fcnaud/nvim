@@ -23,5 +23,7 @@ vim.o.autoindent = true
 vim.bo.autoindent = true
 vim.o.smartindent = true
 
+vim.o.cmdheight = 2
+
 vim.o.list = true
 vim.o.listchars = "space:·"
