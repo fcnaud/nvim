@@ -21,6 +21,12 @@ map("n", "<A-l>", ":BufferLineCycleNext<CR>", opt)
 map("n", "<A-w>", ":bd<CR>", opt)
 map("n", "<C-w>", ":bd<CR>", opt)
 
+-- size
+map("n", "<C-up>", ":vertical resize +5<cr>", opt)
+map("n", "<C-down>", ":vertical resize -5<cr>", opt)
+map("n", "<A-up>", ":resize +2<cr>", opt)
+map("n", "<A-down>", ":resize -2<cr>", opt)
+
 -- alt + hjkl  窗口之间跳转
 map("n", "<C-h>", "<C-w>h", opt)
 map("n", "<C-j>", "<C-w>j", opt)
