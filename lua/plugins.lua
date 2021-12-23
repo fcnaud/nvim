@@ -2,26 +2,30 @@ return require('packer').startup(function(use)
 
   use 'wbthomason/packer.nvim'
 
+  -- file tree
   use {
     'kyazdani42/nvim-tree.lua',
     requires = 'kyazdani42/nvim-web-devicons'
   }
 
+  -- comment
   use {
       'numToStr/comment.nvim',
   }
 
+  -- buffer line
   use {
       'akinsho/bufferline.nvim', 
       requires = 'kyazdani42/nvim-web-devicons'
   }
 
+  -- state line
   use {
       'nvim-lualine/lualine.nvim',
       requires = {'kyazdani42/nvim-web-devicons', opt = true}
   }
 
-  -- telescope
+  -- telescope search
   use 'nvim-lua/popup.nvim'
   use 'nvim-lua/plenary.nvim'
   use {
