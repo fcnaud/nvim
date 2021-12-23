@@ -1,3 +1,6 @@
+
+---
+
 vim.o.backup = false
 vim.o.writebackup = false
 vim.o.swapfile = false
@@ -10,12 +13,12 @@ vim.wo.signcolumn = "yes"
 vim.wo.colorcolumn = "80"
 
 vim.o.tabstop = 4
-vim.bo.tabstop = 4
+vim.bo.tabstop = 2
 vim.o.softtabstop = 4
 vim.o.shiftround = true
 
 vim.o.shiftwidth = 4
-vim.bo.shiftwidth = 4
+vim.bo.shiftwidth = 2
 
 vim.o.expandtab = true
 vim.bo.expandtab = true

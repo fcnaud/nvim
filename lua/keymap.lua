@@ -8,6 +8,9 @@ local opt = {
 }
 local pluginKeys = {}
 
+-- key map
+map("i", "jk", "<esc>", opt)
+
 -- edit file
 map("n", "<leader>ec", ":edit $MYVIMRC<cr>", opt)
 map("n", "<leader>w", ":w <cr>", opt)
