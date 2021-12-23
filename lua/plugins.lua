@@ -25,6 +25,15 @@ return require('packer').startup(function(use)
       requires = {'kyazdani42/nvim-web-devicons', opt = true}
   }
 
+  use {
+    'glepnir/galaxyline.nvim',
+    branch = 'main',
+    -- your statusline
+    config = function() require 'plugin-config/eviline' end,
+    -- some optional icons
+    requires = {'kyazdani42/nvim-web-devicons', opt = true}
+  }
+
   -- telescope search
   use 'nvim-lua/popup.nvim'
   use 'nvim-lua/plenary.nvim'

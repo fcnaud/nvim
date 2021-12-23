@@ -11,7 +11,7 @@ colorscheme zephyr
 lua require('plugin-config/bufferline')
 lua require('plugin-config/comment')
 lua require('plugin-config/nvim-tree')
-lua require('plugin-config/lualine')
+" lua require('plugin-config/lualine')
 lua require('plugin-config/telescope')
 
 " 暂时没找到 neovim 中找到配置方式的
