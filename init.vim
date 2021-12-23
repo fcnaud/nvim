@@ -13,6 +13,7 @@ lua require('plugin-config/comment')
 lua require('plugin-config/nvim-tree')
 " lua require('plugin-config/lualine')
 lua require('plugin-config/telescope')
+lua require('plugin-config/treesitter')
 
 " 暂时没找到 neovim 中找到配置方式的
 nmap <space> :
