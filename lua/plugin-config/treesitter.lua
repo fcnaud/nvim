@@ -1,6 +1,12 @@
 require 'nvim-treesitter.configs'.setup {
     -- support language
-    ensure_installed = { 'vim', 'lua', 'ruby', 'c' },
+    ensure_installed = { 
+        'vim', 
+        'lua', 
+        'ruby', 
+        'c',
+        'bash',
+    },
     -- enable highlight
     highlight = {
         enable = true,
