@@ -6,6 +6,7 @@ require 'nvim-treesitter.configs'.setup {
         'ruby', 
         'c',
         'bash',
+        'fish',
     },
     -- enable highlight
     highlight = {
