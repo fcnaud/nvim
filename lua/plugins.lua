@@ -25,6 +25,16 @@ return require('packer').startup(function(use)
       requires = {'kyazdani42/nvim-web-devicons', opt = true}
   }
 
+  -- indent line
+  use {
+    'lukas-reineke/indent-blankline.nvim',
+    config = function() 
+      require 'indent_blankline'.setup {
+
+        } 
+    end
+  }
+
   use {
     'glepnir/galaxyline.nvim',
     branch = 'main',
