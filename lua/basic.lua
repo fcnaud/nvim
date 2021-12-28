@@ -29,7 +29,7 @@ vim.o.smartindent = true
 
 vim.o.cmdheight = 2
 
-vim.o.timeoutlen = 100
+vim.o.timeoutlen = 300
 
 vim.o.splitbelow = true
 vim.o.splitright = true
