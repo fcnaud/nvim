@@ -26,14 +26,7 @@ return require('packer').startup(function(use)
   }
 
   -- indent line
-  use {
-    'lukas-reineke/indent-blankline.nvim',
-    config = function() 
-      require 'indent_blankline'.setup {
-
-        } 
-    end
-  }
+  use { 'lukas-reineke/indent-blankline.nvim', }
 
   use {
     'glepnir/galaxyline.nvim',

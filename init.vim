@@ -15,7 +15,10 @@ lua require('plugin-config/nvim-tree')
 lua require('plugin-config/telescope')
 lua require('plugin-config/treesitter')
 lua require('plugin-config/gitsigns')
+lua require('plugin-config/indent_blankline')
 
 " 暂时没找到 neovim 中找到配置方式的
 nmap <space> :
 
+filetype plugin indent on
+autocmd FileType lua setlocal shiftwidth=4 softtabstop=4 shiftwidth=4 expandtab
