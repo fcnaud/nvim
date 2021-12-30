@@ -22,4 +22,4 @@ lua require('plugin-config/formatter')
 nmap <space> :
 
 filetype plugin indent on
-" autocmd FileType lua setlocal shiftwidth=4 softtabstop=4 shiftwidth=4 expandtab
+autocmd FileType lua setlocal shiftwidth=2 softtabstop=2 shiftwidth=2 expandtab
