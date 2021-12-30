@@ -2,10 +2,7 @@ vim.g.mapleader = ","
 vim.g.maplocalleader = ","
 
 local map = vim.api.nvim_set_keymap
-local opt = {
-    noremap = true,
-    silent = true
-}
+local opt = {noremap = true, silent = true}
 local pluginKeys = {}
 
 -- key map
@@ -38,14 +35,8 @@ map("n", "<C-l>", "<C-w>l", opt)
 
 -- plugin comment
 pluginKeys.comment = {
-    toggler = {
-        line = "gcc",
-        block = "gbc",
-    },
-    opleader = {
-        line = "gc",
-        block = "gb",
-    }
+  toggler = {line = "gcc", block = "gbc"},
+  opleader = {line = "gc", block = "gb"}
 }
 -- ctrl + /
 map("n", "<C-_>", "gcc", {noremap = false})

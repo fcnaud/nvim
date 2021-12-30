@@ -1,21 +1,16 @@
-require 'nvim-treesitter.configs'.setup {
-    -- support language
-    ensure_installed = { 
-        'vim', 
-        'lua', 
-        'ruby', 
-        'c',
-        'bash',
-        'fish',
-    },
-    -- enable highlight
-    highlight = {
-        enable = true,
-        additional_vim_regex_highlighting = false
-    },
-    indent = {
-        enable = true
-    }
+require'nvim-treesitter.configs'.setup {
+  -- support language
+  ensure_installed = {
+    'vim', 
+    'lua', 
+    'ruby', 
+    'c', 
+    'bash', 
+    'fish'
+  },
+  -- enable highlight
+  highlight = {enable = true, additional_vim_regex_highlighting = false},
+  indent = {enable = true}
 }
 
 -- 开启 Folding
