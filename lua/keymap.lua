@@ -40,7 +40,7 @@ pluginKeys.comment = {
 }
 -- ctrl + /
 map("n", "<C-_>", "gcc", {noremap = false})
-map("v", "<C-_>", "gcc", {noremap = false})
+map("v", "<C-_>", "gc", {noremap = false})
 
 -- nvim-tree
 map("n", "<leader>tt", ":NvimTreeToggle<cr>", opt)
