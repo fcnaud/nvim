@@ -21,4 +21,4 @@ lua require('plugin-config/indent_blankline')
 nmap <space> :
 
 filetype plugin indent on
-autocmd FileType lua setlocal shiftwidth=4 softtabstop=4 shiftwidth=4 expandtab
+" autocmd FileType lua setlocal shiftwidth=4 softtabstop=4 shiftwidth=4 expandtab
