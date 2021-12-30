@@ -56,7 +56,10 @@ map("n", "<leader>tt", ":NvimTreeToggle<cr>", opt)
 
 -- telescope
 map("n", "<C-p>", ":Telescope find_files<CR>", opt)
-map("n", "<leader>f", ":Telescope find_files<CR>", opt)
+-- map("n", "<leader>f", ":Telescope find_files<CR>", opt)
 map("n", "<leader>g", ":Telescope live_grep<CR>", opt)
+
+-- formatter
+map("n", "<leader>f", ":Format<CR>", opt)
 
 return pluginKeys

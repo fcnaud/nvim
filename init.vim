@@ -16,6 +16,7 @@ lua require('plugin-config/telescope')
 lua require('plugin-config/treesitter')
 lua require('plugin-config/gitsigns')
 lua require('plugin-config/indent_blankline')
+lua require('plugin-config/formatter')
 
 " 暂时没找到 neovim 中找到配置方式的
 nmap <space> :
