@@ -56,4 +56,7 @@ map("n", "<leader>f", ":Format<CR>", opt)
 -- packer
 map("n", "<leader>ps", ":PackerSync<CR>", opt)
 
+-- markdown preview
+map("n", "<leader>mp", ":MarkdownPreview<CR>", opt)
+
 return pluginKeys

@@ -1,3 +1,5 @@
+vim.cmd [[packadd packer.nvim]]
+
 return require("packer").startup(function(use)
   use "wbthomason/packer.nvim"
 
@@ -40,6 +42,21 @@ return require("packer").startup(function(use)
   use {"lewis6991/gitsigns.nvim", requires = {"nvim-lua/plenary.nvim"}}
 
   use {"mhartington/formatter.nvim"}
+
+  -- markdown
+  -- need install yarn
+  use {
+    -- 原项目
+    -- 'iamcco/markdown-preview.nvim',
+    'fcnaud/markdown-preview.nvim',
+    run = 'cd app && yarn install',
+    setup = function()
+      vim.g.mkdp_filetypes = {"markdown"}
+      -- vim.g.mkdp_browser = "edge"
+      vim.g.mkdp_open_to_the_world = 1
+    end,
+    ft = {"markdown"}
+  }
 
   --------------------------- colorscheme ------------------------------------
 
