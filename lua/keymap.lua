@@ -53,4 +53,7 @@ map("n", "<leader>g", ":Telescope live_grep<CR>", opt)
 -- formatter
 map("n", "<leader>f", ":Format<CR>", opt)
 
+-- packer
+map("n", "<leader>ps", ":PackerSync<CR>", opt)
+
 return pluginKeys
