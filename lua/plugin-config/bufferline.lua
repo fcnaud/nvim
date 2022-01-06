@@ -14,6 +14,5 @@ require("bufferline").setup {
       }
     },
     buffer_close_icon = '',
-    mappings = true
   }
 }
