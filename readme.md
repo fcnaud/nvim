@@ -23,6 +23,13 @@
 vim.g.mkdp_browser = "edge"
 ```
 
+### lsp
+
+**使用 nvim-lsp-install 安装 lua server 错误**
+
+[解决方法 issue](https://github.com/williamboman/nvim-lsp-installer/issues/342), 手动执行 `:LspInstall sumneko_lua@v2.5.6`
+
+
 ### 参考
 
 **教程**

@@ -2,6 +2,8 @@
 lua require("basic")
 lua require("keymap")
 lua require("plugins")
+lua require("lsp/setup")
+lua require("lsp/nvim-cmp")
 
 " theme
 set background=light " or light if you want light mode
