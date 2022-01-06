@@ -12,7 +12,8 @@ require("bufferline").setup {
         highlight = "Directory",
         text_align = "left"
       }
-    }
+    },
+    buffer_close_icon = '',
+    mappings = true
   }
 }
-
