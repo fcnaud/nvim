@@ -78,7 +78,8 @@ return require("packer").startup(function(use)
   -- gruvbox
   use {"ellisonleao/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
   -- zephyr
-  use "glepnir/zephyr-nvim"
+  -- use "glepnir/zephyr-nvim"
+  use "fcnaud/zephyr-nvim"
   -- nord
   use "shaunsingh/nord.nvim"
   -- onedark
