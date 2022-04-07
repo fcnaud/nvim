@@ -43,6 +43,9 @@ return require("packer").startup(function(use)
 
   use {"mhartington/formatter.nvim"}
 
+  -- terminal
+  use 'voldikss/vim-floaterm'
+
   -- markdown
   -- need install yarn
   use {
