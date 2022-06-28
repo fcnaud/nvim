@@ -28,3 +28,4 @@ autocmd FileType lua setlocal shiftwidth=2 softtabstop=2 shiftwidth=2 expandtab
 
 " vim keymap
 autocmd FileType ruby nnoremap <buffer> <F5> :FloatermNew --autoclose=0 ruby %<CR>
+autocmd FileType lua nnoremap <buffer> <F5> :FloatermNew --autoclose=0 lua %<CR>

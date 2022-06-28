@@ -2,6 +2,12 @@
 
 我的 nvim 配置。
 
+## keymap
+
+|key|action|
+|-|-|
+|<F5>|run|
+
 ## Plugin
 
 ### MarkdownPreview

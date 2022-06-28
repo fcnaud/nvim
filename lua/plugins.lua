@@ -7,10 +7,12 @@ return require("packer").startup(function(use)
   use {"kyazdani42/nvim-tree.lua", requires = "kyazdani42/nvim-web-devicons"}
 
   -- comment
-  use {"numToStr/comment.nvim"}
+  use {"numToStr/comment.nvim", tag = "v0.6", config = function ()
+    require('Comment').setup(require('keymap').comment)
+  end}
 
   -- buffer line
-  use {"akinsho/bufferline.nvim", requires = "kyazdani42/nvim-web-devicons"}
+ use {'akinsho/bufferline.nvim', tag = "*", requires = 'kyazdani42/nvim-web-devicons'}
 
   -- state line
   use {
@@ -23,9 +25,10 @@ return require("packer").startup(function(use)
 
   use {
     "glepnir/galaxyline.nvim",
-    branch = "main",
-    -- your statusline
-    config = function() require "plugin-config/eviline" end,
+   -- your statusline
+    config = function()
+      require("galaxyline.themes.eviline")
+    end,
     -- some optional icons
     requires = {"kyazdani42/nvim-web-devicons", opt = true}
   }

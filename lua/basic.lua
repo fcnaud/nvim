@@ -37,3 +37,6 @@ vim.bo.autoread = true
 
 vim.o.list = true
 vim.o.listchars = "space:·"
+
+vim.o.cmdheight = 0
+
